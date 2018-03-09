@@ -6,14 +6,16 @@ public class Zadania {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Podaj nr zadania: (od 1 do 7)(0 aby wyjść)");
-        int n = input.nextInt();
 
         MojeZadania z1 = new MojeZadania();
 
         int a = 0;
 
         while (a == 0) {
+
+            System.out.println("Podaj nr zadania: (od 1 do 7)(0 aby wyjść)");
+            int n = input.nextInt();
+
             if (n == 1) {
                 z1.zadanie1();
             } else if (n == 2) {
@@ -36,3 +38,4 @@ public class Zadania {
         }
 
     }
+}
