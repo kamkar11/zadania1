@@ -36,6 +36,5 @@ public class Zadania {
                 System.out.println("Zły wybór !!!");
             }
         }
-
     }
 }
